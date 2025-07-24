@@ -9,7 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-       
+        NavigationStack{
+            VStack{
+                Text("This is the root view!")
+                NavigationLink(destination: Text ("Congratulations! You've arrived in second veiw!")){
+                    Text("Click here!")
+                
+                }
+                
+            
+        }
+    }
     }
 }
 
